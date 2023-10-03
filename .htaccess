@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^([^/.]+)/?$ $1.php
+RewriteRule ^user-id/([a-zA-Z-0-9-]+)$ product-details.php?id=$1  
+
+
